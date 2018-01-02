@@ -1,0 +1,82 @@
+/*Base CSS*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+html,
+head,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+    outline: 0 solid;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sectionPadding {
+    padding: 80px 0;
+}
+
+.singleServiceBox {
+    display: block;
+    border: 2px solid #E4E4E4;
+    border-radius: 3px;
+    padding: 30px;
+    text-align: center;
+    color: #333;
+    position: relative;
+    padding-top: 60px;
+    margin-top: 50px;
+}
+
+.singleServiceBox p {
+    margin: 0;
+}
+
+.singleServiceBox h3 {
+    font-size: 22px;
+}
+
+.singleServiceBoxIcon {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background: #4FC070;
+    color: #fff;
+    font-size: 30px;
+    line-height: 70px;
+    border-radius: 50%;
+    top: -35px;
+    left: 50%;
+    margin-left: -35px;
+}
+
+a.singleServiceBox:hover {
+    color: #333;
+}
